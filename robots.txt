@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://aiguruitmaster.github.io/test-site-page-v2/sitemap.xml
