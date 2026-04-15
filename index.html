@@ -6,6 +6,7 @@
 <title>PlayOne Casino – Officiële Gids & Bonus 2026</title>
 <meta name="description" content="Ontdek PlayOne Casino in België: welkomstbonus, spelkeuze, betalingsmethoden en eerlijke spelersreviews. Speel veilig en legaal.">
 <link rel="canonical" href="https://aiguruitmaster.github.io/test-site-page-v2/">
+<link rel="icon" type="image/png" href="favicon.png">
 <link rel="alternate" hreflang="nl" href="https://aiguruitmaster.github.io/test-site-page-v2/">
 <link rel="alternate" hreflang="x-default" href="https://aiguruitmaster.github.io/test-site-page-v2/">
 <meta property="og:title" content="PlayOne Casino – Officiële Gids & Bonus 2026">
@@ -16,76 +17,117 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@700;900&display=swap" rel="stylesheet">
+<!-- Matomo Analytics (setSiteId configured per row — empty for this test row) -->
+<!-- To activate: replace empty string with the numeric Matomo site ID from column 22 -->
+<script>
+  var _paq = window._paq = window._paq || [];
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var matomoId = '';
+    if(matomoId) {
+      var u="//statistic.webmatostat.com/";
+      _paq.push(['setTrackerUrl', u+'matomo.php']);
+      _paq.push(['setSiteId', matomoId]);
+      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+      g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+    }
+  })();
+</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"PlayOne Casino België – Officiële Gids & Bonus 2026","description":"Ontdek PlayOne Casino in België: welkomstbonus, spelkeuze, betalingsmethoden en eerlijke spelersreviews.","author":{"@type":"Person","name":"Casino Expert"},"publisher":{"@type":"Organization","name":"PlayOne"},"datePublished":"2026-04-15","dateModified":"2026-04-15","mainEntityOfPage":{"@type":"WebPage","@id":"https://aiguruitmaster.github.io/test-site-page-v2/"}}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Is PlayOne Casino legaal in België?","acceptedAnswer":{"@type":"Answer","text":"Ja, PlayOne Casino heeft een geldige Belgische licentie van de Kansspelcommissie."}},{"@type":"Question","name":"Hoe vraag ik de welkomstbonus aan?","acceptedAnswer":{"@type":"Answer","text":"De bonus wordt automatisch toegekend na je eerste storting bij registratie."}},{"@type":"Question","name":"Welke betaalmethoden accepteert PlayOne Casino?","acceptedAnswer":{"@type":"Answer","text":"PlayOne accepteert Bancontact, Visa, Mastercard, PayPal, Neteller, Skrill en Bitcoin."}}]}</script>
 <style>
-:root{--acc:#2196f3;--acc2:#1565c0;--bg:#0b0c12;--bg2:#13141f;--bg3:#1a1b26;--text:#e0e0e0;--muted:#8a8b92;--border:rgba(255,255,255,0.1);--radius:12px;--shadow:0 4px 24px rgba(33,150,243,0.15);}
+/* ===== PlayOne brand: dark theme + neon-green accent ===== */
+:root{
+  --acc:#a3e635;    /* lime-400 — matches PlayOne neon green */
+  --acc2:#65a30d;   /* lime-700 — darker green for gradients */
+  --acc-glow:rgba(163,230,53,.25);
+  --bg:#080c07;
+  --bg2:#0f1510;
+  --bg3:#171e14;
+  --text:#e8f5e2;
+  --muted:#7a8f72;
+  --border:rgba(163,230,53,.15);
+  --radius:12px;
+  --shadow:0 4px 24px var(--acc-glow);
+}
 *{box-sizing:border-box;margin:0;padding:0;}
 html{scroll-behavior:smooth;}
 body{background:var(--bg);color:var(--text);font-family:'Inter',sans-serif;font-size:16px;line-height:1.6;}
 a{color:var(--acc);text-decoration:none;}
-a:hover{color:var(--acc2);}
+a:hover{color:#d9f99d;}
 h1,h2,h3{font-family:'Montserrat',sans-serif;font-weight:900;}
-h2{font-size:clamp(1.3rem,3vw,1.8rem);margin:2rem 0 1rem;background:linear-gradient(90deg,var(--acc),#fff 60%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;animation:h2Sweep 3s ease-in-out infinite alternate;}
-@keyframes h2Sweep{0%{background-position:0%}100%{background-position:100%}}
+h2{font-size:clamp(1.3rem,3vw,1.8rem);margin:2rem 0 1rem;background:linear-gradient(90deg,var(--acc),#d9f99d 60%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;}
 @keyframes tickerMove{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
 @keyframes fadeIn{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
-@keyframes pulse{0%,100%{transform:scale(1)}50%{transform:scale(1.05)}}
+@keyframes pulse{0%,100%{transform:scale(1)}50%{transform:scale(1.06)}}
 @keyframes spin{0%{transform:rotateY(0)}100%{transform:rotateY(720deg)}}
 @keyframes confettiFall{0%{transform:translateY(-100vh) rotate(0);opacity:1}100%{transform:translateY(100vh) rotate(720deg);opacity:0}}
-@keyframes jackpotCounter{0%{color:var(--acc)}50%{color:#ffd700}100%{color:var(--acc)}}
+@keyframes greenGlow{0%,100%{text-shadow:0 0 10px var(--acc-glow)}50%{text-shadow:0 0 30px rgba(163,230,53,.6)}}
 
 /* WINS TICKER */
 .ticker-wrap{width:100%;overflow:hidden;background:linear-gradient(90deg,var(--acc2),var(--acc));padding:8px 0;font-size:.8rem;font-weight:600;white-space:nowrap;}
-.ticker-inner{display:inline-block;animation:tickerMove 30s linear infinite;}
+.ticker-inner{display:inline-block;animation:tickerMove 35s linear infinite;}
 .ticker-inner:hover{animation-play-state:paused;}
-.ticker-item{display:inline-block;padding:0 2rem;color:#fff;}
+.ticker-item{display:inline-block;padding:0 2.5rem;color:#000;font-weight:700;}
 
 /* HEADER */
-header{position:sticky;top:0;z-index:100;background:rgba(11,12,18,.97);border-bottom:1px solid var(--border);backdrop-filter:blur(12px);}
+header{position:sticky;top:0;z-index:100;background:rgba(8,12,7,.97);border-bottom:1px solid var(--border);backdrop-filter:blur(12px);}
 .header-inner{max-width:1200px;margin:0 auto;padding:.75rem 1rem;display:flex;align-items:center;justify-content:space-between;gap:1rem;}
-.logo{font-family:'Montserrat',sans-serif;font-weight:900;font-size:1.4rem;color:var(--acc);text-shadow:0 0 20px rgba(33,150,243,.5);}
-nav{display:none;}
-nav a{color:var(--text);font-size:.88rem;font-weight:500;padding:.25rem .6rem;border-radius:6px;transition:.2s;}
+.logo{font-family:'Montserrat',sans-serif;font-weight:900;font-size:1.5rem;color:var(--acc);animation:greenGlow 3s ease-in-out infinite;letter-spacing:.05em;}
+nav{display:none;gap:.5rem;align-items:center;}
+nav a{color:var(--text);font-size:.88rem;font-weight:500;padding:.25rem .7rem;border-radius:6px;transition:.2s;}
 nav a:hover{background:var(--bg3);color:var(--acc);}
 .header-actions{display:flex;align-items:center;gap:.5rem;}
-.online-count{font-size:.75rem;color:var(--muted);}
-.online-dot{display:inline-block;width:7px;height:7px;background:#22c55e;border-radius:50%;margin-right:4px;animation:pulse 2s infinite;}
-.btn{display:inline-flex;align-items:center;justify-content:center;border:none;cursor:pointer;border-radius:50px;font-family:'Montserrat',sans-serif;font-weight:700;transition:.2s;text-decoration:none;}
-.btn-primary{background:linear-gradient(135deg,var(--acc),var(--acc2));color:#fff;padding:.5rem 1.2rem;font-size:.9rem;box-shadow:var(--shadow);}
-.btn-primary:hover{transform:translateY(-2px);box-shadow:0 6px 30px rgba(33,150,243,.4);}
-.btn-outline{background:transparent;color:var(--acc);border:2px solid var(--acc);padding:.45rem 1rem;font-size:.9rem;}
-.btn-outline:hover{background:var(--acc);color:#fff;}
-.btn-lg{padding:.9rem 2rem;font-size:1rem;min-height:52px;}
-.btn-xl{padding:1rem 2.5rem;font-size:1.1rem;min-height:56px;}
+.online-badge{display:flex;align-items:center;gap:.35rem;font-size:.75rem;color:var(--muted);}
+.online-dot{display:inline-block;width:7px;height:7px;background:var(--acc);border-radius:50%;animation:pulse 2s infinite;}
+.btn{display:inline-flex;align-items:center;justify-content:center;border:none;cursor:pointer;border-radius:6px;font-family:'Montserrat',sans-serif;font-weight:700;transition:.2s;text-decoration:none;}
+.btn-primary{background:var(--acc);color:#000;padding:.5rem 1.3rem;font-size:.9rem;box-shadow:0 0 20px var(--acc-glow);}
+.btn-primary:hover{background:#d9f99d;transform:translateY(-2px);box-shadow:0 6px 30px rgba(163,230,53,.5);}
+.btn-outline{background:transparent;color:var(--acc);border:2px solid var(--acc);padding:.45rem 1rem;font-size:.9rem;border-radius:6px;}
+.btn-outline:hover{background:var(--acc);color:#000;}
+.btn-lg{padding:.9rem 2rem;font-size:1rem;min-height:52px;border-radius:6px;}
+.btn-xl{padding:1rem 2.5rem;font-size:1.1rem;min-height:56px;border-radius:6px;}
 .hamburger{display:flex;flex-direction:column;gap:5px;cursor:pointer;padding:.4rem;}
-.hamburger span{display:block;width:24px;height:2px;background:var(--text);border-radius:2px;transition:.3s;}
-.mobile-menu{display:none;position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(11,12,18,.97);z-index:200;flex-direction:column;align-items:center;justify-content:center;gap:2rem;}
+.hamburger span{display:block;width:24px;height:2px;background:var(--text);border-radius:2px;}
+.mobile-menu{display:none;position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(8,12,7,.98);z-index:200;flex-direction:column;align-items:center;justify-content:center;gap:2rem;}
 .mobile-menu.open{display:flex;}
 .mobile-menu a{font-size:1.3rem;font-weight:700;color:var(--text);}
 .mobile-menu .close-btn{position:absolute;top:1rem;right:1.5rem;font-size:1.8rem;cursor:pointer;color:var(--muted);}
-@media(min-width:768px){nav{display:flex;gap:.5rem;align-items:center;}.hamburger{display:none;}}
+@media(min-width:768px){nav{display:flex;}.hamburger{display:none;}}
 
 /* STATS BAR */
 .stats-bar{background:var(--bg2);border-bottom:1px solid var(--border);padding:.5rem 1rem;}
 .stats-inner{max-width:1200px;margin:0 auto;display:flex;flex-wrap:wrap;gap:.75rem;justify-content:center;font-size:.78rem;color:var(--muted);}
 .stat-item{display:flex;align-items:center;gap:.3rem;}
 .stat-val{color:var(--acc);font-weight:700;}
-.stat-badge{color:#22c55e;font-weight:600;}
+.stat-badge{color:var(--acc);font-weight:600;}
 
 /* HERO */
-.hero{background:linear-gradient(160deg,#0d1b3e 0%,var(--bg) 60%);padding:3rem 1rem 2rem;position:relative;overflow:hidden;}
-.hero::before{content:'';position:absolute;top:-50%;left:-20%;width:600px;height:600px;background:radial-gradient(circle,rgba(33,150,243,.15) 0%,transparent 70%);pointer-events:none;}
-.hero-inner{max-width:1000px;margin:0 auto;text-align:center;}
-.hero-badge{display:inline-block;background:rgba(33,150,243,.15);border:1px solid rgba(33,150,243,.3);color:var(--acc);padding:.3rem .8rem;border-radius:50px;font-size:.78rem;font-weight:600;margin-bottom:1rem;}
-.hero h1{font-size:clamp(2rem,6vw,3.5rem);line-height:1.1;margin-bottom:.75rem;background:linear-gradient(135deg,#fff 40%,var(--acc));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;}
-.hero-sub{font-size:clamp(.95rem,2.5vw,1.2rem);color:var(--muted);margin-bottom:1.5rem;}
-.hero-bonus-box{display:inline-block;background:linear-gradient(135deg,rgba(33,150,243,.2),rgba(21,101,192,.2));border:1px solid rgba(33,150,243,.4);border-radius:var(--radius);padding:1rem 1.5rem;margin-bottom:1.5rem;}
-.hero-bonus-lbl{font-size:.75rem;color:var(--muted);text-transform:uppercase;letter-spacing:.1em;}
-.hero-bonus-val{font-size:1.6rem;font-weight:900;font-family:'Montserrat',sans-serif;color:#fff;margin:.25rem 0;}
+.hero{background:linear-gradient(160deg,#0a1a08 0%,var(--bg) 60%);padding:2.5rem 1rem 2rem;position:relative;overflow:hidden;}
+.hero::before{content:'';position:absolute;top:-50%;left:-20%;width:600px;height:600px;background:radial-gradient(circle,rgba(163,230,53,.08) 0%,transparent 70%);pointer-events:none;}
+.hero-layout{max-width:1100px;margin:0 auto;display:grid;grid-template-columns:1fr;gap:2rem;align-items:center;}
+@media(min-width:900px){.hero-layout{grid-template-columns:1fr 1fr;}}
+.hero-content{text-align:center;}
+@media(min-width:900px){.hero-content{text-align:left;}}
+.hero-badge{display:inline-block;background:rgba(163,230,53,.12);border:1px solid rgba(163,230,53,.3);color:var(--acc);padding:.3rem .9rem;border-radius:4px;font-size:.75rem;font-weight:700;margin-bottom:1rem;letter-spacing:.08em;text-transform:uppercase;}
+.hero h1{font-size:clamp(2.2rem,6vw,3.8rem);line-height:1.05;margin-bottom:.75rem;color:var(--acc);text-shadow:0 0 40px rgba(163,230,53,.3);}
+.hero-sub{font-size:clamp(.95rem,2.5vw,1.15rem);color:var(--muted);margin-bottom:1.5rem;}
+.hero-bonus-box{display:inline-block;background:rgba(163,230,53,.08);border:1px solid rgba(163,230,53,.25);border-radius:8px;padding:1rem 1.5rem;margin-bottom:1.5rem;}
+.hero-bonus-lbl{font-size:.72rem;color:var(--muted);text-transform:uppercase;letter-spacing:.1em;}
+.hero-bonus-val{font-size:1.7rem;font-weight:900;font-family:'Montserrat',sans-serif;color:var(--acc);margin:.2rem 0;}
 .hero-ctas{display:flex;flex-wrap:wrap;gap:.75rem;justify-content:center;margin-bottom:1.5rem;}
+@media(min-width:900px){.hero-ctas{justify-content:flex-start;}}
 .trust-row{display:flex;flex-wrap:wrap;gap:.5rem;justify-content:center;}
-.trust-item{display:flex;align-items:center;gap:.3rem;font-size:.78rem;color:var(--muted);background:var(--bg2);border:1px solid var(--border);padding:.3rem .7rem;border-radius:50px;}
+@media(min-width:900px){.trust-row{justify-content:flex-start;}}
+.trust-item{display:flex;align-items:center;gap:.3rem;font-size:.75rem;color:var(--muted);background:var(--bg2);border:1px solid var(--border);padding:.3rem .7rem;border-radius:4px;}
+
+/* REFERENCE IMAGE PANEL */
+.hero-preview{position:relative;border-radius:12px;overflow:hidden;border:1px solid rgba(163,230,53,.25);box-shadow:0 0 40px rgba(163,230,53,.15);max-width:460px;margin:0 auto;}
+.hero-preview img{display:block;width:100%;height:auto;max-height:420px;object-fit:cover;object-position:top;}
+.hero-preview-overlay{position:absolute;bottom:0;left:0;right:0;background:linear-gradient(0deg,rgba(8,12,7,.95) 0%,transparent 60%);padding:1.25rem 1rem .75rem;}
+.hero-preview-text{font-family:'Montserrat',sans-serif;font-size:.85rem;font-weight:700;color:var(--acc);}
+.hero-preview-sub{font-size:.72rem;color:var(--muted);}
 
 /* NAV CARDS */
 .nav-cards{max-width:1000px;margin:0 auto;padding:1.5rem 1rem;}
@@ -93,65 +135,62 @@ nav a:hover{background:var(--bg3);color:var(--acc);}
 .nav-card{background:var(--bg2);border:1px solid var(--border);border-radius:var(--radius);padding:1.25rem;text-align:center;transition:.25s;text-decoration:none;color:var(--text);}
 .nav-card:hover{transform:translateY(-4px);border-color:var(--acc);box-shadow:var(--shadow);}
 .nav-card-icon{font-size:2rem;margin-bottom:.5rem;}
-.nav-card-title{font-family:'Montserrat',sans-serif;font-weight:700;font-size:1rem;margin-bottom:.25rem;}
+.nav-card-title{font-family:'Montserrat',sans-serif;font-weight:700;font-size:1rem;margin-bottom:.25rem;color:var(--acc);}
 .nav-card-desc{font-size:.8rem;color:var(--muted);}
 
 /* SECTION */
 section{max-width:1200px;margin:0 auto;padding:2rem 1rem;}
 .section-title{text-align:center;margin-bottom:1.5rem;}
 
-/* CASINO CARDS */
-.casino-cards{display:flex;flex-direction:column;gap:1rem;}
-.casino-card{background:var(--bg2);border:1px solid var(--border);border-radius:var(--radius);padding:1.25rem;transition:.25s;}
-.casino-card:hover{border-color:var(--acc);box-shadow:var(--shadow);}
-.casino-card.top-pick{border-color:var(--acc);box-shadow:var(--shadow);}
-.casino-card-top{display:flex;justify-content:space-between;align-items:flex-start;gap:1rem;margin-bottom:.75rem;flex-wrap:wrap;}
-.casino-name{font-family:'Montserrat',sans-serif;font-weight:900;font-size:1.1rem;}
-.casino-rating{color:#ffd700;font-size:.9rem;}
-.casino-bonus{background:rgba(33,150,243,.1);border:1px solid rgba(33,150,243,.2);padding:.5rem 1rem;border-radius:8px;font-size:.88rem;margin-bottom:.75rem;}
-.casino-pros{display:flex;flex-wrap:wrap;gap:.4rem;margin-bottom:.75rem;}
-.casino-pro{background:rgba(34,197,94,.1);color:#22c55e;font-size:.75rem;padding:.2rem .6rem;border-radius:50px;border:1px solid rgba(34,197,94,.2);}
-.casino-meta{display:flex;gap:1rem;font-size:.78rem;color:var(--muted);}
-@media(min-width:768px){.casino-cards{display:grid;grid-template-columns:repeat(3,1fr);}}
+/* SINGLE CASINO CARD */
+.casino-hero-card{background:linear-gradient(135deg,rgba(163,230,53,.06),var(--bg2));border:2px solid rgba(163,230,53,.3);border-radius:16px;padding:2rem;max-width:700px;margin:0 auto;}
+.casino-hero-card .casino-top{display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:1rem;margin-bottom:1.25rem;}
+.casino-name{font-family:'Montserrat',sans-serif;font-weight:900;font-size:1.5rem;color:var(--acc);}
+.casino-rating{color:#ffd700;font-size:1rem;margin-top:.2rem;}
+.casino-bonus-box{background:rgba(163,230,53,.1);border:1px solid rgba(163,230,53,.2);padding:.75rem 1.25rem;border-radius:8px;margin-bottom:1.25rem;}
+.casino-bonus-label{font-size:.72rem;color:var(--muted);text-transform:uppercase;letter-spacing:.07em;}
+.casino-bonus-val{font-size:1.6rem;font-family:'Montserrat',sans-serif;font-weight:900;color:var(--acc);}
+.casino-pros{display:flex;flex-wrap:wrap;gap:.5rem;margin-bottom:1.25rem;}
+.casino-pro{background:rgba(163,230,53,.1);border:1px solid rgba(163,230,53,.2);color:var(--acc);font-size:.78rem;padding:.25rem .7rem;border-radius:4px;}
+.casino-meta{display:flex;flex-wrap:wrap;gap:1rem;font-size:.8rem;color:var(--muted);margin-bottom:1.25rem;}
 
 /* GAMES GRID */
 #gamesGrid{display:grid;grid-template-columns:repeat(3,1fr);gap:.75rem;}
 @media(min-width:480px){#gamesGrid{grid-template-columns:repeat(4,1fr);}}
 @media(min-width:768px){#gamesGrid{grid-template-columns:repeat(6,1fr);}}
 .game-card{position:relative;background:var(--bg2);border:1px solid var(--border);border-radius:var(--radius);overflow:hidden;cursor:pointer;transition:.25s;aspect-ratio:3/4;}
-.game-card:hover{transform:translateY(-4px);border-color:var(--acc);}
+.game-card:hover{transform:translateY(-4px);border-color:var(--acc);box-shadow:0 0 20px var(--acc-glow);}
 .game-img{width:100%;height:100%;object-fit:cover;}
 .game-fallback{width:100%;height:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;font-size:2.5rem;background:linear-gradient(135deg,var(--bg3),var(--bg2));}
 .game-fallback span{font-size:.65rem;color:var(--muted);margin-top:.3rem;}
-.game-badge{position:absolute;top:.4rem;left:.4rem;background:#ef4444;color:#fff;font-size:.6rem;font-weight:700;padding:.15rem .4rem;border-radius:50px;}
-.game-info{position:absolute;bottom:0;left:0;right:0;background:linear-gradient(0deg,rgba(0,0,0,.9),transparent);padding:.75rem .5rem .4rem;font-size:.7rem;}
-.game-name{font-weight:700;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+.game-badge{position:absolute;top:.4rem;left:.4rem;background:var(--acc);color:#000;font-size:.6rem;font-weight:900;padding:.15rem .4rem;border-radius:3px;}
+.game-info{position:absolute;bottom:0;left:0;right:0;background:linear-gradient(0deg,rgba(0,0,0,.95),transparent);padding:.75rem .5rem .4rem;font-size:.7rem;}
+.game-name{font-weight:700;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:var(--text);}
 .game-rtp{color:var(--acc);font-size:.65rem;}
 
 /* MINI GAME */
-#miniGame{background:linear-gradient(135deg,#0d1b3e,var(--bg2));border:2px solid rgba(33,150,243,.3);border-radius:16px;padding:2rem 1rem;text-align:center;margin:1rem 0;}
-.minigame-title{font-family:'Montserrat',sans-serif;font-weight:900;font-size:1.4rem;margin-bottom:.5rem;color:#fff;}
+#miniGame{background:linear-gradient(135deg,#0a1a08,var(--bg2));border:2px solid rgba(163,230,53,.25);border-radius:16px;padding:2rem 1rem;text-align:center;}
+.minigame-title{font-family:'Montserrat',sans-serif;font-weight:900;font-size:1.5rem;margin-bottom:.4rem;color:var(--acc);}
 .minigame-sub{font-size:.88rem;color:var(--muted);margin-bottom:1.5rem;}
 .reels{display:flex;justify-content:center;gap:1rem;margin-bottom:1.5rem;}
-.reel{width:80px;height:80px;background:var(--bg);border:2px solid var(--border);border-radius:12px;display:flex;align-items:center;justify-content:center;font-size:2.5rem;transition:.3s;position:relative;overflow:hidden;}
-.reel.spinning{animation:spin .3s linear 3;}
-.reel.win{border-color:#ffd700;box-shadow:0 0 20px rgba(255,215,0,.5);}
-.spin-btn{background:linear-gradient(135deg,var(--acc),var(--acc2));color:#fff;border:none;padding:1rem 3rem;font-size:1.1rem;font-family:'Montserrat',sans-serif;font-weight:900;border-radius:50px;cursor:pointer;min-height:56px;transition:.2s;text-transform:uppercase;letter-spacing:.05em;}
-.spin-btn:hover{transform:translateY(-2px);box-shadow:0 8px 30px rgba(33,150,243,.5);}
-.spin-btn:active{transform:translateY(0);}
-.spin-btn:disabled{opacity:.6;cursor:not-allowed;transform:none;}
-.spin-msg{margin-top:1rem;font-size:.9rem;font-weight:600;min-height:1.5rem;color:#ffd700;}
-.spin-credits{font-size:.75rem;color:var(--muted);margin-top:.5rem;}
+.reel{width:80px;height:80px;background:var(--bg);border:2px solid var(--border);border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:2.5rem;transition:.3s;}
+.reel.spinning{animation:spin .25s linear 4;}
+.reel.win{border-color:var(--acc);box-shadow:0 0 25px var(--acc-glow);}
+.spin-btn{background:var(--acc);color:#000;border:none;padding:1rem 3rem;font-size:1.1rem;font-family:'Montserrat',sans-serif;font-weight:900;border-radius:6px;cursor:pointer;min-height:56px;transition:.2s;letter-spacing:.05em;}
+.spin-btn:hover{background:#d9f99d;transform:translateY(-2px);box-shadow:0 8px 30px rgba(163,230,53,.5);}
+.spin-btn:disabled{opacity:.5;cursor:not-allowed;transform:none;}
+.spin-msg{margin-top:1rem;font-size:.95rem;font-weight:700;min-height:1.5rem;color:var(--acc);}
+.spin-credits{font-size:.75rem;color:var(--muted);margin-top:.4rem;}
 
 /* WIN POPUP */
-#winPopup{display:none;position:fixed;inset:0;z-index:999;background:rgba(0,0,0,.85);align-items:center;justify-content:center;}
+#winPopup{display:none;position:fixed;inset:0;z-index:999;background:rgba(0,0,0,.88);align-items:center;justify-content:center;}
 #winPopup.show{display:flex;}
-.win-popup-box{background:linear-gradient(135deg,#0d1b3e,var(--bg2));border:2px solid #ffd700;border-radius:20px;padding:2.5rem 2rem;text-align:center;max-width:400px;width:90%;animation:fadeIn .4s ease;}
+.win-popup-box{background:linear-gradient(135deg,#0a1a08,var(--bg2));border:2px solid var(--acc);border-radius:20px;padding:2.5rem 2rem;text-align:center;max-width:400px;width:90%;animation:fadeIn .4s ease;box-shadow:0 0 60px var(--acc-glow);}
 .win-popup-title{font-size:2.5rem;margin-bottom:.5rem;}
-.win-popup-amount{font-family:'Montserrat',sans-serif;font-weight:900;font-size:3rem;color:#ffd700;margin-bottom:1rem;text-shadow:0 0 30px rgba(255,215,0,.6);}
+.win-popup-amount{font-family:'Montserrat',sans-serif;font-weight:900;font-size:3rem;color:var(--acc);margin-bottom:.75rem;text-shadow:0 0 30px rgba(163,230,53,.6);}
 .win-popup-sub{color:var(--muted);font-size:.9rem;margin-bottom:1.5rem;}
-.win-popup-btn{background:linear-gradient(135deg,#ffd700,#ff8c00);color:#000;border:none;padding:1rem 2.5rem;font-size:1.1rem;font-family:'Montserrat',sans-serif;font-weight:900;border-radius:50px;cursor:pointer;width:100%;transition:.2s;}
-.win-popup-btn:hover{transform:translateY(-2px);box-shadow:0 8px 30px rgba(255,215,0,.4);}
+.win-popup-btn{background:var(--acc);color:#000;border:none;padding:1rem 2.5rem;font-size:1.1rem;font-family:'Montserrat',sans-serif;font-weight:900;border-radius:6px;cursor:pointer;width:100%;transition:.2s;}
+.win-popup-btn:hover{background:#d9f99d;box-shadow:0 8px 30px rgba(163,230,53,.4);}
 .win-timer{font-size:.75rem;color:var(--muted);margin-top:.75rem;}
 
 /* CONFETTI */
@@ -159,25 +198,25 @@ section{max-width:1200px;margin:0 auto;padding:2rem 1rem;}
 
 /* RECENT WINS */
 .wins-list{display:flex;flex-direction:column;gap:.75rem;}
-.win-item{display:flex;align-items:center;gap.75rem;background:var(--bg2);border:1px solid var(--border);border-radius:var(--radius);padding:.75rem 1rem;animation:fadeIn .4s ease;}
+.win-item{display:flex;align-items:center;background:var(--bg2);border:1px solid var(--border);border-radius:var(--radius);padding:.75rem 1rem;animation:fadeIn .4s ease;}
 .win-avatar{font-size:1.5rem;margin-right:.75rem;flex-shrink:0;}
 .win-info{flex:1;}
 .win-name{font-weight:600;font-size:.9rem;}
 .win-game{font-size:.75rem;color:var(--muted);}
-.win-amount{font-family:'Montserrat',sans-serif;font-weight:900;color:#ffd700;font-size:1.1rem;white-space:nowrap;}
+.win-amount{font-family:'Montserrat',sans-serif;font-weight:900;color:var(--acc);font-size:1.1rem;white-space:nowrap;}
 
 /* PAYMENTS */
 .payments-grid{display:flex;flex-wrap:wrap;gap:.75rem;justify-content:center;}
-.payment-item{background:var(--bg2);border:1px solid var(--border);border-radius:10px;padding:.6rem 1rem;font-size:.85rem;font-weight:600;display:flex;align-items:center;gap:.4rem;}
+.payment-item{background:var(--bg2);border:1px solid var(--border);border-radius:8px;padding:.6rem 1rem;font-size:.85rem;font-weight:600;}
 
 /* ARTICLE */
 .article{background:var(--bg2);border-radius:16px;padding:2rem;margin:2rem auto;}
 .article h2{margin-top:1.5rem;}
-.article p{margin-bottom:1rem;color:var(--text);}
+.article p{margin-bottom:1rem;}
 .article table{width:100%;border-collapse:collapse;margin:1rem 0;font-size:.88rem;}
-.article th{background:rgba(33,150,243,.15);color:var(--acc);padding:.6rem 1rem;text-align:left;border:1px solid var(--border);}
-.article td{padding:.5rem 1rem;border:1px solid var(--border);color:var(--text);}
-.article tr:nth-child(even){background:rgba(255,255,255,.03);}
+.article th{background:rgba(163,230,53,.1);color:var(--acc);padding:.6rem 1rem;text-align:left;border:1px solid var(--border);}
+.article td{padding:.5rem 1rem;border:1px solid var(--border);}
+.article tr:nth-child(even){background:rgba(255,255,255,.02);}
 
 /* TRUST BADGES */
 .trust-badges{display:flex;flex-wrap:wrap;gap:1rem;justify-content:center;}
@@ -185,10 +224,10 @@ section{max-width:1200px;margin:0 auto;padding:2rem 1rem;}
 .trust-badge-icon{font-size:2rem;}
 .trust-badge-text{font-size:.72rem;font-weight:600;text-align:center;color:var(--muted);}
 
-/* FAQ ACCORDION */
+/* FAQ */
 .faq-list{display:flex;flex-direction:column;gap:.5rem;}
 details{background:var(--bg2);border:1px solid var(--border);border-radius:var(--radius);overflow:hidden;}
-details[open]{border-color:rgba(33,150,243,.4);}
+details[open]{border-color:rgba(163,230,53,.35);}
 summary{padding:1rem 1.25rem;cursor:pointer;font-weight:600;font-size:.95rem;list-style:none;display:flex;justify-content:space-between;align-items:center;}
 summary::after{content:'▼';font-size:.7rem;transition:.3s;color:var(--muted);}
 details[open] summary::after{transform:rotate(180deg);}
@@ -198,12 +237,12 @@ details p{padding:0 1.25rem 1rem;color:var(--muted);font-size:.9rem;}
 footer{background:var(--bg2);border-top:1px solid var(--border);padding:2.5rem 1rem 1.5rem;}
 .footer-inner{max-width:1200px;margin:0 auto;}
 .footer-top{display:flex;flex-wrap:wrap;gap:2rem;justify-content:space-between;margin-bottom:2rem;}
-.footer-brand{font-family:'Montserrat',sans-serif;font-weight:900;font-size:1.3rem;color:var(--acc);margin-bottom:.5rem;}
+.footer-brand{font-family:'Montserrat',sans-serif;font-weight:900;font-size:1.3rem;color:var(--acc);}
 .footer-tagline{font-size:.82rem;color:var(--muted);}
 .footer-nav a{display:block;font-size:.85rem;color:var(--muted);padding:.2rem 0;}
 .footer-nav a:hover{color:var(--acc);}
 .footer-bottom{border-top:1px solid var(--border);padding-top:1.25rem;text-align:center;font-size:.75rem;color:var(--muted);}
-.footer-warning{background:rgba(239,68,68,.08);border:1px solid rgba(239,68,68,.2);border-radius:8px;padding:.75rem 1rem;margin-bottom:1rem;font-size:.78rem;color:#fca5a5;}
+.footer-warning{background:rgba(239,68,68,.07);border:1px solid rgba(239,68,68,.2);border-radius:8px;padding:.75rem 1rem;margin-bottom:1rem;font-size:.78rem;color:#fca5a5;}
 </style>
 </head>
 <body>
@@ -221,7 +260,7 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2.5rem 1
     <span class="ticker-item">🎉 Anna P. won €680 op Wolf Gold</span>
     <span class="ticker-item">🏆 Nico B. won €5.400 op Lightning Roulette</span>
     <span class="ticker-item">🎰 Sarah V. won €1.250 op Gonzo's Quest</span>
-    <span class="ticker-item">💰 Lars V. won €4.200 op Aviator</span>
+    <span class="ticker-item">🏆 Lars V. won €4.200 op Aviator</span>
     <span class="ticker-item">🎰 Sophie D. won €1.850 op Gates of Olympus</span>
     <span class="ticker-item">💰 Pieter M. won €7.500 op Sweet Bonanza</span>
     <span class="ticker-item">🎉 Emma B. won €950 op Book of Dead</span>
@@ -233,7 +272,7 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2.5rem 1
 <!-- STICKY HEADER -->
 <header>
   <div class="header-inner">
-    <div class="logo">PlayOne</div>
+    <div class="logo">PLAY ONE</div>
     <nav>
       <a href="#">Home</a>
       <a href="#bonus">Bonus</a>
@@ -242,8 +281,8 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2.5rem 1
       <a href="./faq/">FAQ</a>
     </nav>
     <div class="header-actions">
-      <div class="online-count"><span class="online-dot"></span><span id="playersCount">1,247</span> online</div>
-      <a href="javascript:void(0)" class="btn btn-outline cta-btn" style="display:none;" id="loginBtn">Inloggen</a>
+      <div class="online-badge"><span class="online-dot"></span><span id="playersCount">1,247</span> online</div>
+      <a href="javascript:void(0)" class="btn btn-primary cta-btn" id="loginBtn">Inloggen</a>
       <a href="javascript:void(0)" class="btn btn-primary cta-btn" id="registerBtn">Registreren</a>
       <div class="hamburger" onclick="document.getElementById('mobileMenu').classList.add('open')">
         <span></span><span></span><span></span>
@@ -274,26 +313,36 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2.5rem 1
   </div>
 </div>
 
-<!-- HERO -->
-<section class="hero">
-  <div class="hero-inner">
-    <div class="hero-badge">✅ GEVERIFIEERD &amp; GELICENSEERD IN BELGIË</div>
-    <h1>PlayOne Casino</h1>
-    <p class="hero-sub">De #1 Online Casino Gids voor Belgische Spelers — Veilig, Legaal &amp; Betrouwbaar</p>
-    <div class="hero-bonus-box" id="bonus">
-      <div class="hero-bonus-lbl">🎁 Welkomstbonus</div>
-      <div class="hero-bonus-val">100% + 100 Gratis Spins</div>
-      <div style="font-size:.75rem;color:var(--muted)">Tot €500 bonus voor nieuwe spelers</div>
+<!-- HERO — two-column: text left, brand screenshot right -->
+<section class="hero" style="max-width:100%;padding:2.5rem 1rem 2rem;">
+  <div class="hero-layout">
+    <div class="hero-content">
+      <div class="hero-badge">✅ GEVERIFIEERD &amp; GELICENSEERD IN BELGIË</div>
+      <h1>PlayOne Casino</h1>
+      <p class="hero-sub">De #1 Online Casino Gids voor Belgische Spelers — Veilig, Legaal &amp; Betrouwbaar</p>
+      <div class="hero-bonus-box" id="bonus">
+        <div class="hero-bonus-lbl">🎁 Welkomstbonus</div>
+        <div class="hero-bonus-val">100% + 100 Gratis Spins</div>
+        <div style="font-size:.75rem;color:var(--muted)">Tot €500 bonus voor nieuwe spelers</div>
+      </div>
+      <div class="hero-ctas">
+        <a href="javascript:void(0)" class="btn btn-primary btn-xl cta-btn">🚀 Claim Bonus →</a>
+        <a href="#gamesGrid" class="btn btn-outline btn-lg">🎮 Bekijk Spellen ↓</a>
+      </div>
+      <div class="trust-row">
+        <div class="trust-item">🔒 256-bit SSL</div>
+        <div class="trust-item">🏆 Belgische Licentie</div>
+        <div class="trust-item">⚡ 24u Uitbetaling</div>
+        <div class="trust-item">💳 Bancontact</div>
+      </div>
     </div>
-    <div class="hero-ctas">
-      <a href="javascript:void(0)" class="btn btn-primary btn-xl cta-btn">🚀 Claim Bonus →</a>
-      <a href="#gamesGrid" class="btn btn-outline btn-lg">🎮 Bekijk Spellen ↓</a>
-    </div>
-    <div class="trust-row">
-      <div class="trust-item">🔒 256-bit SSL</div>
-      <div class="trust-item">🏆 Belgische Licentie</div>
-      <div class="trust-item">⚡ 24u Uitbetaling</div>
-      <div class="trust-item">💳 Bancontact</div>
+    <!-- Brand reference screenshot -->
+    <div class="hero-preview">
+      <img src="https://i.gyazo.com/c58903fe131c16ac951827af4b332cb3.png" alt="PlayOne Casino Screenshot" loading="eager">
+      <div class="hero-preview-overlay">
+        <div class="hero-preview-text">🎮 Officieel PlayOne Casino Platform</div>
+        <div class="hero-preview-sub">1000+ spellen · Live casino · Mobiel geoptimaliseerd</div>
+      </div>
     </div>
   </div>
 </section>
@@ -319,58 +368,36 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2.5rem 1
   </div>
 </div>
 
-<!-- CASINO COMPARISON CARDS -->
+<!-- SINGLE CASINO CARD — only the brand from input.json -->
 <section>
-  <h2 class="section-title">🏆 Top Casino Vergelijking 2026</h2>
-  <div class="casino-cards">
-    <div class="casino-card top-pick">
-      <div class="casino-card-top">
-        <div>
-          <div class="casino-name">#1 PlayOne Casino</div>
-          <div class="casino-rating">⭐⭐⭐⭐⭐ 4.9/5</div>
-        </div>
-        <a href="javascript:void(0)" class="btn btn-primary cta-btn">Bezoek Site →</a>
+  <h2 class="section-title">🏆 PlayOne Casino — Officieel 2026</h2>
+  <div class="casino-hero-card">
+    <div class="casino-top">
+      <div>
+        <div class="casino-name">PlayOne Casino</div>
+        <div class="casino-rating">⭐⭐⭐⭐⭐ 4.9/5</div>
       </div>
-      <div class="casino-bonus">🎁 100% welkomstbonus + 100 gratis spins — tot €500</div>
-      <div class="casino-pros">
-        <span class="casino-pro">✅ Snel uitbetalen</span>
-        <span class="casino-pro">✅ Groot spelenaanbod</span>
-        <span class="casino-pro">✅ Nederlandstalige support</span>
-        <span class="casino-pro">✅ Belgische licentie</span>
-        <span class="casino-pro">✅ Bancontact</span>
-      </div>
-      <div class="casino-meta"><span>⚡ Uitbetaling: 24u</span><span>🎮 1000+ spellen</span><span>📱 Mobiel geoptimaliseerd</span></div>
+      <a href="javascript:void(0)" class="btn btn-primary btn-lg cta-btn">Claim Bonus →</a>
     </div>
-    <div class="casino-card">
-      <div class="casino-card-top">
-        <div>
-          <div class="casino-name">#2 BetKing Casino</div>
-          <div class="casino-rating">⭐⭐⭐⭐ 4.5/5</div>
-        </div>
-        <a href="javascript:void(0)" class="btn btn-primary cta-btn">Bezoek Site</a>
-      </div>
-      <div class="casino-bonus">🎁 50% bonus tot €200</div>
-      <div class="casino-pros">
-        <span class="casino-pro">✅ Veel spellen</span>
-        <span class="casino-pro">✅ Live casino</span>
-      </div>
-      <div class="casino-meta"><span>⚡ Uitbetaling: 48u</span><span>🎮 800+ spellen</span></div>
+    <div class="casino-bonus-box">
+      <div class="casino-bonus-label">🎁 Welkomstaanbieding</div>
+      <div class="casino-bonus-val">100% + 100 Gratis Spins</div>
+      <div style="font-size:.8rem;color:var(--muted)">Tot €500 · Min. storting €10 · Inzetvereisten x30</div>
     </div>
-    <div class="casino-card">
-      <div class="casino-card-top">
-        <div>
-          <div class="casino-name">#3 SpinMax Casino</div>
-          <div class="casino-rating">⭐⭐⭐⭐ 4.3/5</div>
-        </div>
-        <a href="javascript:void(0)" class="btn btn-primary cta-btn">Bezoek Site</a>
-      </div>
-      <div class="casino-bonus">🎁 75 gratis spins bij registratie</div>
-      <div class="casino-pros">
-        <span class="casino-pro">✅ Eenvoudige registratie</span>
-        <span class="casino-pro">✅ Mobiel vriendelijk</span>
-      </div>
-      <div class="casino-meta"><span>⚡ Uitbetaling: 72u</span><span>🎮 500+ spellen</span></div>
+    <div class="casino-pros">
+      <span class="casino-pro">✅ Belgische licentie</span>
+      <span class="casino-pro">✅ 24/7 NL support</span>
+      <span class="casino-pro">✅ Bancontact</span>
+      <span class="casino-pro">✅ 1000+ spellen</span>
+      <span class="casino-pro">✅ 24u uitbetaling</span>
+      <span class="casino-pro">✅ Mobiel geoptimaliseerd</span>
     </div>
+    <div class="casino-meta">
+      <span>⚡ Uitbetaling: 24u</span>
+      <span>🎮 1000+ spellen</span>
+      <span>📱 Geen app nodig</span>
+    </div>
+    <a href="javascript:void(0)" class="btn btn-primary cta-btn" style="width:100%;justify-content:center;padding:1rem;font-size:1.05rem;">🚀 Registreer bij PlayOne Casino →</a>
   </div>
 </section>
 
@@ -388,7 +415,7 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2.5rem 1
   <h2 class="section-title">🎰 Probeer Je Geluk — Gratis!</h2>
   <div id="miniGame">
     <div class="minigame-title">🎰 PlayOne Slot Machine</div>
-    <div class="minigame-sub">Draai de rollen en win een bonus tot €10.000!</div>
+    <div class="minigame-sub">Draai de rollen en win een bonus tot €10.000! Geen registratie vereist.</div>
     <div class="reels">
       <div class="reel" id="reel0">🍒</div>
       <div class="reel" id="reel1">🔔</div>
@@ -396,7 +423,7 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2.5rem 1
     </div>
     <button class="spin-btn" id="spinBtn" onclick="doSpin()">🎰 DRAAIEN!</button>
     <div class="spin-msg" id="spinMsg"></div>
-    <div class="spin-credits" id="spinCredits">Klik om gratis te spelen — geen registratie vereist</div>
+    <div class="spin-credits" id="spinCredits">Klik om gratis te spelen</div>
   </div>
 </section>
 
@@ -436,17 +463,17 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2.5rem 1
 <div class="article" style="max-width:1000px;">
   <h2>PlayOne Casino: De Complete Gids voor Belgische Spelers</h2>
   <p>PlayOne Casino is een van de meest besproken online casino's in België. Met een uitgebreid spelenaanbod, aantrekkelijke bonussen en een gebruiksvriendelijke interface trekt PlayOne Casino steeds meer Belgische spelers aan. Op deze pagina vind je alles wat je moet weten voordat je begint: van de welkomstbonus tot de betalingsmethoden en de spelervaring op mobiel.</p>
-  <p>Of je nu een ervaren casinospeler bent of voor het eerst een online casino uitprobeert — deze gids helpt je om een weloverwogen keuze te maken. Wij hebben PlayOne Casino uitgebreid getest en beoordeeld op veiligheid, bonussen, spelkeuze en klantenservice. Lees ook onze <a href="./reviews/">spelersreviews</a> voor eerlijke ervaringen van echte spelers.</p>
+  <p>Of je nu een ervaren casinospeler bent of voor het eerst een online casino uitprobeert — deze gids helpt je om een weloverwogen keuze te maken. Wij hebben PlayOne Casino uitgebreid getest op veiligheid, bonussen, spelkeuze en klantenservice. Lees ook onze <a href="./reviews/">spelersreviews</a> voor eerlijke ervaringen van echte spelers.</p>
 
   <h2>PlayOne Casino Welkomstbonus – Wat Krijg Je?</h2>
-  <p>Nieuwe spelers bij PlayOne Casino worden verwelkomd met een aantrekkelijk bonuspakket. Bij je eerste storting ontvang je een percentage van je inleg terug als bonusgeld, vaak aangevuld met gratis spins op populaire gokkasten. Dit geeft je direct meer speeltijd en hogere winstkansen vanaf het eerste moment.</p>
-  <p>De welkomstbonus is automatisch beschikbaar na registratie en eerste storting. Bekijk de actuele <a href="./promotions/">bonussen en acties</a> voor de nieuwste voorwaarden en het exacte bonusbedrag. Inzetvereisten zijn conform de Belgische wetgeving eerlijk en transparant gecommuniceerd. Play One Casino hanteert standaard x30 inzetvereisten, wat marktconform is voor Belgische online casino's.</p>
+  <p>Nieuwe spelers bij PlayOne Casino worden verwelkomd met een aantrekkelijk bonuspakket. Bij je eerste storting ontvang je een percentage van je inleg terug als bonusgeld, aangevuld met gratis spins op populaire gokkasten. Dit geeft je direct meer speeltijd en hogere winstkansen vanaf het eerste moment.</p>
+  <p>De welkomstbonus is automatisch beschikbaar na registratie en eerste storting. Bekijk de actuele <a href="./promotions/">bonussen en acties</a> voor de nieuwste voorwaarden. Inzetvereisten zijn conform de Belgische wetgeving eerlijk en transparant gecommuniceerd. Play One Casino hanteert standaard x30 inzetvereisten.</p>
 
   <h2>Spelkeuze bij PlayOne – Van Slots tot Live Casino</h2>
-  <p>PlayOne Casino biedt een indrukwekkend assortiment van casinospellen. Het platform werkt samen met toonaangevende softwareleveranciers zoals Pragmatic Play, Evolution Gaming, NetEnt en Play'n GO. Dit garandeert hoogwaardige graphics, soepele gameplay en gecertificeerde RNG-systemen voor eerlijk spel.</p>
-  <p>Het aanbod omvat honderden gokkasten, tafelspellen zoals blackjack en roulette, en een uitgebreide live casino sectie met echte croupiers. Populaire titels zijn Aviator, Book of Dead, Sweet Bonanza en Gates of Olympus. Voor vragen over specifieke spellen, bezoek onze <a href="./faq/">FAQ-pagina</a>. Play One Casino voegt wekelijks nieuwe titels toe aan het platform.</p>
+  <p>PlayOne Casino biedt een indrukwekkend assortiment van casinospellen. Het platform werkt samen met toonaangevende softwareleveranciers zoals Pragmatic Play, Evolution Gaming, NetEnt en Play'n GO. Dit garandeert hoogwaardige graphics, soepele gameplay en gecertificeerde RNG-systemen.</p>
+  <p>Het aanbod omvat honderden gokkasten, tafelspellen zoals blackjack en roulette, en een uitgebreide live casino sectie met echte croupiers. Populaire titels zijn Aviator, Book of Dead, Sweet Bonanza en Gates of Olympus. Voor vragen over specifieke spellen, bezoek onze <a href="./faq/">FAQ-pagina</a>.</p>
 
-  <h2>PlayOne versus Andere Belgische Online Casino's</h2>
+  <h2>PlayOne Casino versus Concurrenten — Vergelijking</h2>
   <table>
     <tr><th>Kenmerk</th><th>PlayOne Casino</th><th>Gemiddeld Casino</th></tr>
     <tr><td>Welkomstbonus</td><td>✅ 100% + 100 spins</td><td>50% bonus</td></tr>
@@ -468,86 +495,44 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2.5rem 1
     <tr><td>Bitcoin / Crypto</td><td>Direct</td><td>15–30 min</td><td>€20</td></tr>
     <tr><td>Skrill / Neteller</td><td>Direct</td><td>Tot 24 uur</td><td>€10</td></tr>
   </table>
-  <p>Bancontact is bijzonder populair in België en PlayOne Casino ondersteunt dit volledig. Bekijk alle huidige <a href="./promotions/">betalingsbonussen en cashback-acties</a> voor extra voordelen bij stortingen.</p>
+  <p>Bancontact is bijzonder populair in België en PlayOne ondersteunt dit volledig. Bekijk <a href="./promotions/">betalingsbonussen en cashback-acties</a> voor extra voordelen bij stortingen.</p>
 
   <h2>Mobiel Spelen bij PlayOne Casino</h2>
   <p>De mobiele versie van PlayOne Casino is volledig geoptimaliseerd voor smartphones en tablets. Je hoeft geen app te downloaden — het platform werkt naadloos in je browser op iOS en Android. Alle functies, inclusief storten, opnemen en klantenservice, zijn beschikbaar op mobiel.</p>
-  <p>Dankzij het responsive design laadt de site snel, zelfs op 4G-verbindingen. De knoppen zijn groot genoeg voor bediening met één duim, wat de gebruikservaring op kleine schermen aangenaam maakt. PlayOne Casino heeft geïnvesteerd in een superieure mobiele gebruikerservaring. Lees meer in onze <a href="./reviews/">spelersbeoordelingen</a> over de mobiele ervaring.</p>
+  <p>Dankzij het responsive design laadt de site snel, zelfs op 4G-verbindingen. De knoppen zijn groot genoeg voor bediening met één duim. Lees meer in onze <a href="./reviews/">spelersbeoordelingen</a> over de mobiele ervaring.</p>
 
   <h2>Veiligheid en Licentie van PlayOne Casino</h2>
-  <p>PlayOne Casino opereert met een geldige licentie, conform de Belgische kansspelwetgeving. De Belgische Kansspelcommissie stelt strikte eisen aan online casino's wat betreft eerlijk spel, bescherming van spelersgegevens en verantwoord gokken. PlayOne Casino voldoet aan al deze eisen.</p>
-  <p>Alle verbindingen zijn beveiligd met 256-bit SSL-encryptie. Spelersgegevens en financiële transacties zijn volledig beschermd. Het platform maakt gebruik van gecertificeerde RNG-systemen die regelmatig worden gecontroleerd door onafhankelijke testlaboratoria zoals eCOGRA en iTechLabs.</p>
+  <p>PlayOne Casino opereert met een geldige licentie van de Belgische Kansspelcommissie. De commissie stelt strikte eisen aan online casino's wat betreft eerlijk spel, spelersbescherming en verantwoord gokken. PlayOne Casino voldoet aan al deze eisen.</p>
+  <p>Alle verbindingen zijn beveiligd met 256-bit SSL-encryptie. Het platform maakt gebruik van gecertificeerde RNG-systemen die regelmatig worden gecontroleerd door onafhankelijke testlaboratoria zoals eCOGRA en iTechLabs.</p>
 
   <h2>Klantenservice bij PlayOne Casino</h2>
-  <p>De klantenservice van PlayOne Casino is 24/7 bereikbaar via live chat. Onze testers hebben de responsietijd meerdere keren getest en kregen gemiddeld binnen 2 minuten antwoord. Het supportteam spreekt Nederlands, wat ideaal is voor Belgische spelers die snel geholpen willen worden.</p>
-  <p>Naast live chat is er ook e-mailondersteuning beschikbaar. E-mails worden doorgaans binnen 4–6 uur beantwoord. Voor veelgestelde vragen verwijzen we je naar onze uitgebreide <a href="./faq/">FAQ-sectie</a>. PlayOne Casino heeft ook een kennisbank met uitgebreide handleidingen.</p>
+  <p>De klantenservice van PlayOne Casino is 24/7 bereikbaar via live chat in het Nederlands. Gemiddeld binnen 2 minuten antwoord. Naast live chat is e-mailondersteuning beschikbaar, doorgaans beantwoord binnen 4–6 uur.</p>
+  <p>Voor veelgestelde vragen verwijzen we je naar onze uitgebreide <a href="./faq/">FAQ-sectie</a>.</p>
 
-  <h2>VIP-programma en Trouwebeloningen</h2>
-  <p>Regelmatige spelers bij PlayOne Casino kunnen deelnemen aan het VIP-programma. Hoe meer je speelt, hoe meer loyaliteitspunten je verdient. Deze punten kunnen worden ingewisseld voor bonusgeld, gratis spins en exclusieve beloningen voor trouwe spelers.</p>
-  <p>VIP-leden genieten ook van persoonlijke accountmanagers, hogere opnamelimits en exclusieve tournooien. Het programma heeft meerdere niveaus, waarbij hogere niveaus toegang geven tot betere beloningen en cashback percentages. Bekijk de actuele <a href="./promotions/">VIP-voordelen en promoties</a>.</p>
+  <h2>VIP-programma bij PlayOne Casino</h2>
+  <p>Regelmatige spelers kunnen deelnemen aan het VIP-loyaliteitsprogramma. Hoe meer je speelt, hoe meer punten je verdient. Deze punten zijn inwisselbaar voor bonusgeld, gratis spins en exclusieve beloningen.</p>
+  <p>VIP-leden genieten van persoonlijke accountmanagers, hogere opnamelimits en exclusieve toernooien. Bekijk actuele <a href="./promotions/">VIP-voordelen en promoties</a>.</p>
 
   <h2>Verantwoord Gokken bij PlayOne Casino</h2>
-  <p>PlayOne Casino hecht veel waarde aan verantwoord gokken. Het platform biedt diverse hulpmiddelen om je speelgedrag te beheersen: stortingslimieten, sessielimieten en zelfuitsluiting. Deze tools zijn eenvoudig toegankelijk via je accountinstellingen.</p>
-  <p>Spelers die problemen ervaren met gokken kunnen gebruik maken van externe hulpdiensten. In België is de Helpline Gambling beschikbaar via 0800 35 777. PlayOne Casino werkt actief samen met organisaties die verantwoord gokgedrag promoten en biedt directe links naar hulporganisaties aan.</p>
+  <p>PlayOne Casino biedt diverse hulpmiddelen voor verantwoord gokken: stortingslimieten, sessielimieten en zelfuitsluiting. In België is de Helpline Gambling beschikbaar via 0800 35 777 (gratis). PlayOne werkt actief samen met hulporganisaties.</p>
 
   <h2>PlayOne Casino Bonuscodes en Speciale Acties</h2>
-  <p>Naast de welkomstbonus biedt PlayOne Casino regelmatig speciale promoties aan voor bestaande spelers. Denk aan seizoensgebonden aanbiedingen, gratis spins op nieuwe spelletjes en herlaadbonus weekends. Houd de <a href="./promotions/">promotiepagina</a> in de gaten voor de laatste acties.</p>
-  <p>Soms zijn er exclusieve bonuscodes beschikbaar via partners. Deze codes geven toegang tot verbeterde bonusaanbiedingen die niet standaard beschikbaar zijn. Vraag de klantenservice naar actuele codes als je registreert bij Play One Casino.</p>
-
-  <h2>Spelervaring en Interface van PlayOne Casino</h2>
-  <p>De interface van PlayOne Casino is modern en intuïtief. Het design is overzichtelijk met een duidelijke navigatie. Spellen zijn georganiseerd in categorieën: slots, tafelspellen, live casino en jackpotspellen. Een zoekfunctie maakt het eenvoudig om je favoriete spel snel te vinden.</p>
-  <p>Laadtijden zijn uitstekend, zelfs op oudere apparaten. Animaties lopen soepel en de geluidskwaliteit van live casino spellen is uitstekend. PlayOne Casino heeft een darkmode-interface die comfortabel is voor langere sessies. Lees eerlijke <a href="./reviews/">spelersreviews</a> voor meer details over de gebruikservaring.</p>
+  <p>Naast de welkomstbonus biedt PlayOne regelmatig speciale promoties: reload bonussen, gratis spins op nieuwe spellen en herlaadbonus weekends. Houd de <a href="./promotions/">promotiepagina</a> in de gaten voor de laatste acties.</p>
 
   <h2>FAQ — Veelgestelde Vragen over PlayOne Casino</h2>
   <div class="faq-list">
-    <details>
-      <summary>Is PlayOne Casino legaal in België?</summary>
-      <p>Ja, PlayOne Casino beschikt over een geldige vergunning conform de Belgische kansspelwetgeving. Het casino voldoet aan alle eisen van de Belgische Kansspelcommissie.</p>
-    </details>
-    <details>
-      <summary>Hoe vraag ik de welkomstbonus aan bij PlayOne?</summary>
-      <p>De bonus wordt automatisch toegekend na je eerste storting. Klik op de registratieknop, maak een account aan en doe een storting om de bonus te activeren.</p>
-    </details>
-    <details>
-      <summary>Hoe snel worden opnames verwerkt bij PlayOne Casino?</summary>
-      <p>Cryptocurrency-opnames worden verwerkt binnen 15–30 minuten. E-wallets zoals PayPal en Skrill binnen 24 uur. Bankkaarten duren 2–5 werkdagen.</p>
-    </details>
-    <details>
-      <summary>Kan ik PlayOne Casino spelen op mijn smartphone?</summary>
-      <p>Ja, PlayOne Casino is volledig geoptimaliseerd voor mobiele browsers op iOS en Android. Geen app-download vereist.</p>
-    </details>
-    <details>
-      <summary>Wat is de minimale storting bij PlayOne Casino?</summary>
-      <p>Het minimale stortingsbedrag bedraagt €10 voor de meeste betaalmethoden. Voor cryptocurrency kan dit variëren.</p>
-    </details>
-    <details>
-      <summary>Heeft PlayOne Casino een live casino?</summary>
-      <p>Ja, PlayOne biedt een uitgebreide live casino sectie met professionele croupiers voor blackjack, roulette, baccarat en spelshows zoals Crazy Time.</p>
-    </details>
-    <details>
-      <summary>Hoe neem ik contact op met de klantenservice?</summary>
-      <p>De klantenservice is 24/7 bereikbaar via live chat op de website. Je kunt ook contact opnemen via e-mail voor minder urgente vragen.</p>
-    </details>
-    <details>
-      <summary>Is er een VIP-programma bij PlayOne Casino?</summary>
-      <p>Ja, PlayOne heeft een loyaliteitsprogramma waarbij je punten verdient voor elke inzet. Punten zijn inwisselbaar voor bonusgeld en gratis spins.</p>
-    </details>
-    <details>
-      <summary>Hoe verifieer ik mijn account bij PlayOne Casino?</summary>
-      <p>Account verificatie vereist een geldig identiteitsdocument en bewijs van adres. Dit is een standaard KYC-procedure om je account te beveiligen.</p>
-    </details>
-    <details>
-      <summary>Welke spellen hebben de hoogste RTP bij PlayOne Casino?</summary>
-      <p>Blackjack heeft een RTP van tot 99,5%. Onder de slots heeft Book of Dead een RTP van 96,2% en Sweet Bonanza 96,5%.</p>
-    </details>
-    <details>
-      <summary>Kan ik gratis spelen bij PlayOne Casino?</summary>
-      <p>Sommige spellen zijn beschikbaar in demo-modus zonder registratie. Dit geeft je de kans om spellen uit te proberen voordat je echt geld inzet.</p>
-    </details>
-    <details>
-      <summary>Wat zijn de inzetvereisten voor de bonus?</summary>
-      <p>De inzetvereisten bij PlayOne Casino zijn x30, wat marktconform is. Dit betekent dat je de bonussom 30 keer moet inzetten voor je kunt opnemen.</p>
-    </details>
+    <details><summary>Is PlayOne Casino legaal in België?</summary><p>Ja, PlayOne Casino heeft een geldige Belgische licentie van de Kansspelcommissie en voldoet aan alle wettelijke eisen.</p></details>
+    <details><summary>Hoe vraag ik de welkomstbonus aan bij PlayOne?</summary><p>De bonus wordt automatisch toegekend na je eerste storting van minimaal €10. Geen bonuscode nodig.</p></details>
+    <details><summary>Hoe snel worden opnames verwerkt bij PlayOne Casino?</summary><p>Crypto: 15–30 minuten. E-wallets (PayPal, Skrill): tot 24 uur. Bankkaarten: 2–5 werkdagen.</p></details>
+    <details><summary>Kan ik PlayOne Casino spelen op mijn smartphone?</summary><p>Ja, volledig geoptimaliseerd voor iOS en Android. Geen app nodig.</p></details>
+    <details><summary>Wat is de minimale storting bij PlayOne Casino?</summary><p>€10 voor de meeste betaalmethoden. Voor crypto kan dit variëren.</p></details>
+    <details><summary>Heeft PlayOne Casino een live casino?</summary><p>Ja, met professionele croupiers voor blackjack, roulette, baccarat en spelshows zoals Crazy Time.</p></details>
+    <details><summary>Hoe neem ik contact op met de klantenservice?</summary><p>24/7 via live chat op de website. Ook e-mail voor minder urgente vragen.</p></details>
+    <details><summary>Is er een VIP-programma bij PlayOne Casino?</summary><p>Ja, verdien loyaliteitspunten per inzet, inwisselbaar voor bonusgeld en gratis spins.</p></details>
+    <details><summary>Hoe verifieer ik mijn account bij PlayOne Casino?</summary><p>Geldig ID-document + adresbewijs. Standaard KYC-procedure voor veilige transacties.</p></details>
+    <details><summary>Welke spellen hebben de hoogste RTP bij PlayOne Casino?</summary><p>Blackjack: tot 99,5%. Book of Dead: 96,2%. Sweet Bonanza: 96,5%.</p></details>
+    <details><summary>Kan ik gratis spelen bij PlayOne Casino?</summary><p>Sommige slots zijn beschikbaar in demo-modus zonder registratie.</p></details>
+    <details><summary>Wat zijn de inzetvereisten voor de bonus?</summary><p>x30 — marktconform voor Belgische online casino's.</p></details>
   </div>
 </div>
 
@@ -569,9 +554,9 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2.5rem 1
   <div class="footer-inner">
     <div class="footer-top">
       <div>
-        <div class="footer-brand">PlayOne</div>
+        <div class="footer-brand">PLAY ONE</div>
         <div class="footer-tagline">Officieel PlayOne Casino België — legaal en veilig online casino.</div>
-        <div style="margin-top:1rem;font-size:.8rem;color:var(--muted);">Laatste update: April 2026</div>
+        <div style="margin-top:1rem;font-size:.78rem;color:var(--muted);">Laatste update: April 2026</div>
       </div>
       <div class="footer-nav">
         <a href="#">Home</a>
@@ -584,29 +569,27 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2.5rem 1
       <div>
         <div style="font-size:.82rem;font-weight:600;margin-bottom:.5rem;color:var(--muted);">Betaalmethoden</div>
         <div style="display:flex;flex-wrap:wrap;gap:.4rem;">
-          <span style="font-size:.75rem;background:var(--bg3);padding:.25rem .5rem;border-radius:6px;">Bancontact</span>
-          <span style="font-size:.75rem;background:var(--bg3);padding:.25rem .5rem;border-radius:6px;">Visa</span>
-          <span style="font-size:.75rem;background:var(--bg3);padding:.25rem .5rem;border-radius:6px;">PayPal</span>
-          <span style="font-size:.75rem;background:var(--bg3);padding:.25rem .5rem;border-radius:6px;">Bitcoin</span>
+          <span style="font-size:.75rem;background:var(--bg3);padding:.25rem .5rem;border-radius:4px;border:1px solid var(--border);">Bancontact</span>
+          <span style="font-size:.75rem;background:var(--bg3);padding:.25rem .5rem;border-radius:4px;border:1px solid var(--border);">Visa</span>
+          <span style="font-size:.75rem;background:var(--bg3);padding:.25rem .5rem;border-radius:4px;border:1px solid var(--border);">PayPal</span>
+          <span style="font-size:.75rem;background:var(--bg3);padding:.25rem .5rem;border-radius:4px;border:1px solid var(--border);">Bitcoin</span>
         </div>
       </div>
     </div>
     <div class="footer-warning">⚠️ Gokken kan verslavend zijn. Speel verantwoord. Gokken is enkel toegestaan voor personen van 18 jaar en ouder. Hulplijn: 0800 35 777.</div>
-    <div class="footer-bottom">
-      © 2026 PlayOne Casino. Alle rechten voorbehouden. | 18+ | Voorwaarden van toepassing | Speel Verantwoord
-    </div>
+    <div class="footer-bottom">© 2026 PlayOne Casino. Alle rechten voorbehouden. | 18+ | Voorwaarden van toepassing | Speel Verantwoord</div>
   </div>
 </footer>
 
 <script>
 // ============================================================
-// AFFILIATE LINK (base64 cloaked)
+// AFFILIATE LINK — single link from table, base64 cloaked
 // ============================================================
 var AFF_B64 = 'aHR0cHM6Ly90cmFjay1jci5jb20vclU4bnc/c3ViX2lkXzE0PTAwMDAwNzIyMyZzdWJfaWRfOT1wbGF5b25lLWJlLmNvbQ==';
 var AFF_LINK = atob(AFF_B64);
 
 // ============================================================
-// COOKIE DROP (affiliate tracking)
+// COOKIE DROP
 // ============================================================
 (function(){
   if(!document.cookie.includes('aff_ref')){
@@ -615,7 +598,7 @@ var AFF_LINK = atob(AFF_B64);
 })();
 
 // ============================================================
-// WIRE ALL CTA BUTTONS
+// WIRE ALL CTA BUTTONS → single affiliate link
 // ============================================================
 document.querySelectorAll('.cta-btn').forEach(function(btn){
   btn.onclick = function(e){ e.preventDefault(); window.open(AFF_LINK,'_blank','noopener'); };
@@ -640,18 +623,18 @@ var GAME_CDN_MAP = {
 };
 
 var GAMES = [
-  {key:'aviator',    emoji:'✈️', name:'Aviator',           provider:'Spribe',         rtp:'97%', hot:true},
-  {key:'sweetbonanza',emoji:'🍭',name:'Sweet Bonanza',     provider:'Pragmatic Play', rtp:'96.5%',hot:true},
-  {key:'gates',      emoji:'⚡', name:'Gates of Olympus',   provider:'Pragmatic Play', rtp:'96.5%',hot:false},
-  {key:'bookdead',   emoji:'📚', name:'Book of Dead',       provider:'Play\'n GO',     rtp:'96.2%',hot:false},
-  {key:'crazytime',  emoji:'🎡', name:'Crazy Time',         provider:'Evolution',      rtp:'96.1%',hot:true},
-  {key:'starburst',  emoji:'⭐', name:'Starburst',          provider:'NetEnt',         rtp:'96.1%',hot:false},
-  {key:'wolfgold',   emoji:'🐺', name:'Wolf Gold',          provider:'Pragmatic Play', rtp:'96.0%',hot:false},
-  {key:'blackjack',  emoji:'🃏', name:'Lightning Blackjack',provider:'Evolution',      rtp:'99.5%',hot:false},
-  {key:'gonzo',      emoji:'🎭', name:'Gonzo\'s Quest',     provider:'NetEnt',         rtp:'95.97%',hot:false},
-  {key:'bigbass',    emoji:'🐟', name:'Big Bass Bonanza',   provider:'Pragmatic Play', rtp:'96.7%',hot:false},
-  {key:'lightning',  emoji:'⚡', name:'Lightning Roulette', provider:'Evolution',      rtp:'97.3%',hot:false},
-  {key:'starburst',  emoji:'🎰', name:'Mega Moolah',        provider:'Microgaming',    rtp:'88.1%',hot:false}
+  {key:'aviator',     emoji:'✈️', name:'Aviator',           provider:'Spribe',         rtp:'97%', hot:true},
+  {key:'sweetbonanza',emoji:'🍭',  name:'Sweet Bonanza',     provider:'Pragmatic Play', rtp:'96.5%',hot:true},
+  {key:'gates',       emoji:'⚡',  name:'Gates of Olympus',   provider:'Pragmatic Play', rtp:'96.5%',hot:false},
+  {key:'bookdead',    emoji:'📚',  name:'Book of Dead',       provider:'Play\'n GO',     rtp:'96.2%',hot:false},
+  {key:'crazytime',   emoji:'🎡',  name:'Crazy Time',         provider:'Evolution',      rtp:'96.1%',hot:true},
+  {key:'starburst',   emoji:'⭐',  name:'Starburst',          provider:'NetEnt',         rtp:'96.1%',hot:false},
+  {key:'wolfgold',    emoji:'🐺',  name:'Wolf Gold',          provider:'Pragmatic Play', rtp:'96.0%',hot:false},
+  {key:'blackjack',   emoji:'🃏',  name:'Lightning Blackjack',provider:'Evolution',      rtp:'99.5%',hot:false},
+  {key:'gonzo',       emoji:'🎭',  name:'Gonzo\'s Quest',     provider:'NetEnt',         rtp:'95.97%',hot:false},
+  {key:'bigbass',     emoji:'🐟',  name:'Big Bass Bonanza',   provider:'Pragmatic Play', rtp:'96.7%',hot:false},
+  {key:'lightning',   emoji:'⚡',  name:'Lightning Roulette', provider:'Evolution',      rtp:'97.3%',hot:false},
+  {key:'starburst',   emoji:'🎰',  name:'Mega Moolah',        provider:'Microgaming',    rtp:'88.1%',hot:false}
 ];
 
 function renderGames(){
@@ -671,22 +654,21 @@ function renderGames(){
 }
 
 // ============================================================
-// 3-STEP SLOT MACHINE MINI-GAME FUNNEL
+// 3-STEP SLOT MACHINE MINI-GAME
 // ============================================================
 var gameStep = 0;
 var gameActive = false;
 var winCountdown = null;
 
 var STEPS = [
-  {reels:['🍒','🍒','🔔'], isWin:false, msg:'Bijna! Nog één draai...'},
+  {reels:['🍒','🍒','🔔'], isWin:false, msg:'Bijna! Nog één draai voor de jackpot!'},
   {reels:['7️⃣','7️⃣','🍒'], isWin:false, msg:'Zo dichtbij! Probeer nog één keer!'},
-  {reels:['7️⃣','7️⃣','7️⃣'], isWin:true,  msg:'🎉 GROTE WIN! Gefeliciteerd!', amount:0}
+  {reels:['7️⃣','7️⃣','7️⃣'], isWin:true,  msg:'🎉 GROTE WIN! Gefeliciteerd!'}
 ];
-STEPS[2].amount = (Math.floor(Math.random()*90)+10) * 100;
+var winAmount = (Math.floor(Math.random()*90)+10) * 100;
 
 function doSpin(){
-  if(gameActive) return;
-  if(gameStep >= STEPS.length) return;
+  if(gameActive || gameStep >= STEPS.length) return;
   gameActive = true;
   var btn = document.getElementById('spinBtn');
   btn.disabled = true;
@@ -695,25 +677,18 @@ function doSpin(){
 
   var step = STEPS[gameStep];
   var reelEls = [document.getElementById('reel0'), document.getElementById('reel1'), document.getElementById('reel2')];
-
-  // Animate reels
-  var spinSymbols = ['🍒','🍋','🔔','💎','⭐','7️⃣','🍇','💰'];
-  var spinCount = 0;
-  var spinInterval = setInterval(function(){
-    reelEls.forEach(function(r){
-      r.classList.add('spinning');
-      r.textContent = spinSymbols[Math.floor(Math.random()*spinSymbols.length)];
-    });
-    spinCount++;
-    if(spinCount >= 8){
-      clearInterval(spinInterval);
-      // Set final symbols
+  var spinSymbols = ['🍒','🍋','🔔','💎','⭐','7️⃣','🍇','💰','🎰','🍀'];
+  var count = 0;
+  var iv = setInterval(function(){
+    reelEls.forEach(function(r){ r.classList.add('spinning'); r.textContent = spinSymbols[Math.floor(Math.random()*spinSymbols.length)]; });
+    count++;
+    if(count >= 10){
+      clearInterval(iv);
       reelEls.forEach(function(r,i){ r.classList.remove('spinning'); r.textContent = step.reels[i]; });
-
       if(step.isWin){
         reelEls.forEach(function(r){ r.classList.add('win'); });
         document.getElementById('spinMsg').textContent = step.msg;
-        document.getElementById('winAmount').textContent = '€' + step.amount.toLocaleString('nl-BE');
+        document.getElementById('winAmount').textContent = '€' + winAmount.toLocaleString('nl-BE');
         showWinPopup();
       } else {
         document.getElementById('spinMsg').textContent = step.msg;
@@ -724,7 +699,7 @@ function doSpin(){
       gameStep++;
       gameActive = false;
     }
-  }, 100);
+  }, 90);
 }
 
 function showWinPopup(){
@@ -734,12 +709,8 @@ function showWinPopup(){
   document.getElementById('winTimer').textContent = 'Wordt automatisch geopend over ' + secs + ' seconden...';
   winCountdown = setInterval(function(){
     secs--;
-    if(secs <= 0){
-      clearInterval(winCountdown);
-      claimWin();
-    } else {
-      document.getElementById('winTimer').textContent = 'Wordt automatisch geopend over ' + secs + ' seconden...';
-    }
+    if(secs <= 0){ clearInterval(winCountdown); claimWin(); }
+    else document.getElementById('winTimer').textContent = 'Wordt automatisch geopend over ' + secs + ' seconden...';
   }, 1000);
 }
 
@@ -750,56 +721,55 @@ function claimWin(){
 }
 
 function spawnConfetti(){
-  var colors = ['#ffd700','#ff4d4d','#2196f3','#22c55e','#ff8c00','#e91e63','#fff'];
-  for(var i=0;i<60;i++){
+  var colors = ['#a3e635','#65a30d','#d9f99d','#ffd700','#fff','#22c55e'];
+  for(var i=0;i<70;i++){
     (function(){
       var el = document.createElement('div');
       el.className = 'confetti-piece';
       el.style.left = Math.random()*100 + 'vw';
       el.style.background = colors[Math.floor(Math.random()*colors.length)];
-      el.style.width = (6+Math.random()*8) + 'px';
-      el.style.height = (6+Math.random()*8) + 'px';
-      el.style.borderRadius = Math.random()>.5 ? '50%' : '0';
+      el.style.width = (5+Math.random()*8) + 'px';
+      el.style.height = (5+Math.random()*8) + 'px';
+      el.style.borderRadius = Math.random()>.5 ? '50%' : '2px';
       el.style.animationDuration = (2+Math.random()*2) + 's';
-      el.style.animationDelay = Math.random()*1 + 's';
+      el.style.animationDelay = Math.random()*.8 + 's';
       document.body.appendChild(el);
-      setTimeout(function(){ el.remove(); }, 4000);
+      setTimeout(function(){ el.remove(); }, 4500);
     })();
   }
 }
 
 // ============================================================
-// WINS TICKER — fill with localized names
+// WINS TICKER (localized Belgian names)
 // ============================================================
 function initTicker(){
   var names = ['Lars V.','Sophie D.','Pieter M.','Emma B.','Thomas K.','Julie W.','Kevin D.','Anna P.','Nico B.','Sarah V.','Luc H.','Marie C.','Jan D.','Ellen P.','Frank B.','Hanna S.','Marc V.','Katrien L.','Wouter G.','Lieselot P.'];
-  var games = ['Aviator','Sweet Bonanza','Gates of Olympus','Book of Dead','Crazy Time','Starburst','Wolf Gold','Lightning Roulette','Gonzo\'s Quest','Big Bass Bonanza'];
+  var games = ['Aviator','Sweet Bonanza','Gates of Olympus','Book of Dead','Crazy Time','Starburst','Wolf Gold','Lightning Roulette','Gonzo\'s Quest'];
   var items = '';
   for(var i=0;i<20;i++){
     var n = names[Math.floor(Math.random()*names.length)];
     var g = games[Math.floor(Math.random()*games.length)];
     var a = (Math.floor(Math.random()*200)+10)*10;
-    var emoji = ['🏆','🎰','💰','🎉','🥇'][Math.floor(Math.random()*5)];
-    items += '<span class="ticker-item">' + emoji + ' ' + n + ' won €' + a.toLocaleString('nl-BE') + ' op ' + g + '</span>';
+    var e = ['🏆','🎰','💰','🎉','🥇'][Math.floor(Math.random()*5)];
+    items += '<span class="ticker-item">' + e + ' ' + n + ' won €' + a.toLocaleString('nl-BE') + ' op ' + g + '</span>';
   }
-  // Duplicate for seamless loop
   var t = document.getElementById('winsTicker');
-  if(t){ t.innerHTML = items + items; }
+  if(t) t.innerHTML = items + items;
 }
 
 // ============================================================
 // RECENT WINS PANEL
 // ============================================================
-var recentWinNames = ['Lars V.','Sophie D.','Pieter M.','Emma B.','Thomas K.','Julie W.','Kevin D.','Anna P.','Nico B.','Sarah V.','Luc H.','Marie C.'];
-var recentWinGames = ['Aviator','Sweet Bonanza','Gates of Olympus','Book of Dead','Crazy Time','Starburst','Lightning Roulette'];
-var recentWinAvatars = ['👨','👩','🧑','👴','👵','🧔','👱'];
+var RW_NAMES = ['Lars V.','Sophie D.','Pieter M.','Emma B.','Thomas K.','Julie W.','Kevin D.','Anna P.','Nico B.','Sarah V.','Luc H.','Marie C.'];
+var RW_GAMES = ['Aviator','Sweet Bonanza','Gates of Olympus','Book of Dead','Crazy Time','Starburst','Lightning Roulette'];
+var RW_AVS   = ['👨','👩','🧑','👴','👵','🧔','👱'];
 
 function genWinItem(){
-  var n = recentWinNames[Math.floor(Math.random()*recentWinNames.length)];
-  var g = recentWinGames[Math.floor(Math.random()*recentWinGames.length)];
-  var a = (Math.floor(Math.random()*200)+5)*10;
-  var av = recentWinAvatars[Math.floor(Math.random()*recentWinAvatars.length)];
-  return '<div class="win-item"><div class="win-avatar">' + av + '</div><div class="win-info"><div class="win-name">' + n + '</div><div class="win-game">' + g + ' · Zonet gewonnen</div></div><div class="win-amount">€' + a.toLocaleString('nl-BE') + '</div></div>';
+  var n=RW_NAMES[Math.floor(Math.random()*RW_NAMES.length)];
+  var g=RW_GAMES[Math.floor(Math.random()*RW_GAMES.length)];
+  var a=(Math.floor(Math.random()*200)+5)*10;
+  var av=RW_AVS[Math.floor(Math.random()*RW_AVS.length)];
+  return '<div class="win-item"><div class="win-avatar">'+av+'</div><div class="win-info"><div class="win-name">'+n+'</div><div class="win-game">'+g+' · Zonet gewonnen</div></div><div class="win-amount">€'+a.toLocaleString('nl-BE')+'</div></div>';
 }
 
 function initRecentWins(){
@@ -819,25 +789,19 @@ function initRecentWins(){
 // ANIMATED COUNTERS
 // ============================================================
 function animateCounters(){
-  var playersEl = document.getElementById('playersCount');
-  var statsPlayersEl = document.getElementById('statsPlayers');
-  var jackpotEl = document.getElementById('statsJackpot');
-
-  var players = 1247;
-  var jackpot = 2847293;
-
+  var pEl = document.getElementById('playersCount');
+  var spEl = document.getElementById('statsPlayers');
+  var jEl = document.getElementById('statsJackpot');
+  var players = 1247, jackpot = 2847293;
   setInterval(function(){
-    players += Math.floor(Math.random()*7) - 3;
-    if(players < 1100) players = 1100;
-    if(players > 1500) players = 1500;
-    var formatted = players.toLocaleString('nl-BE');
-    if(playersEl) playersEl.textContent = formatted;
-    if(statsPlayersEl) statsPlayersEl.textContent = formatted;
+    players += Math.floor(Math.random()*7)-3;
+    if(players<1100)players=1100; if(players>1500)players=1500;
+    var f = players.toLocaleString('nl-BE');
+    if(pEl)pEl.textContent=f; if(spEl)spEl.textContent=f;
   }, 4000);
-
   setInterval(function(){
     jackpot += Math.floor(Math.random()*50)+10;
-    if(jackpotEl) jackpotEl.textContent = jackpot.toLocaleString('nl-BE');
+    if(jEl)jEl.textContent=jackpot.toLocaleString('nl-BE');
   }, 3000);
 }
 
@@ -849,11 +813,6 @@ document.addEventListener('DOMContentLoaded', function(){
   initTicker();
   initRecentWins();
   animateCounters();
-  // Show login btn on desktop
-  if(window.innerWidth >= 768){
-    var lb = document.getElementById('loginBtn');
-    if(lb) lb.style.display = 'inline-flex';
-  }
 });
 </script>
 </body>
